@@ -1,0 +1,31 @@
+{
+  "name": "TelegramBot",
+  "version": "1.0.0",
+  "description": "Telegram bot for parsing schedule",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "easy-cron": "git+https://github.com/ipragmatech/EasyCron-API.git",
+    "express": "^4.15.2",
+    "http": "0.0.0",
+    "jsdom": "^15.1.0",
+    "node-telegram-bot-api": "^0.30.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
