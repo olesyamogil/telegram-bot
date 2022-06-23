@@ -15,7 +15,7 @@
     "easy-cron": "git+https://github.com/ipragmatech/EasyCron-API.git",
     "express": "^4.15.2",
     "http": "0.0.0",
-    "jsdom": "^15.1.0",
+    "jsdom": "^16.5.0",
     "node-telegram-bot-api": "^0.30.0"
   },
   "repository": {
